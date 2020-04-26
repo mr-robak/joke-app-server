@@ -110,8 +110,8 @@ app.get("/", (request, response) => {
 		
 		<ul>
 		<p>The server listens on port: ${port}</p>
-			<li>To see client side of it go to my <a href="https://joke-app-ultimate.herokuapp.com/">joke-app</a> site</li>
-			 <li>If you want to peek inside you can get a raw <a href="/data.json" target="_blank">data.json</a> file.</li>
+			<li>To see client side of it go to my <a href="https://joke-app-ultimate.herokuapp.com/" target="_blank>joke-app</a> site. </li>
+			 <li>If you want to peek inside you can get a raw <a href="data.json" target="_blank">data.json</a> file.</li>
 			<li>You can get a source code at my <a href="https://github.com/mr-robak/joke-app-server" target="_blank">GitHub</a>.</li>
 		</ul>
 	</div>
