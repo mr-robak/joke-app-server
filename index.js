@@ -107,10 +107,11 @@ app.get("/", (request, response) => {
 		<h1>Fancy Data Server</h1>
 		<canvas width="560" height="312"></canvas>
 		<p>It serves jokes and pictures and it is awesome!</p>
-		<p>What you can do:</p>
+		
 		<ul>
-			<li>Go back <a href="#">home</a></li>
-			<li><a href="#">Contact</a> to me if you believe this happened in error</li>
+		<p>The server listens on port: ${port}</p>
+			<li>You can get a source code at my <a href="https://github.com/mr-robak/joke-app-server" target="_blank">GitHub</a>.</li>
+			<li>To see client side of it go to my <a href="#">joke-app</a> site</li>
 		</ul>
 	</div>
 </main>
